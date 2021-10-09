@@ -1,0 +1,19 @@
+.homeComponent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.homeComponent h1 {
+    margin-bottom: 10px;
+}
+
+.homeComponent a {
+    color: #5762D5;
+    margin-top: 20px;
+}
+
+.homeComponent a:focus {
+    color: #C3423F;
+}

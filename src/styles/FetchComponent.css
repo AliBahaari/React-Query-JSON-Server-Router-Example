@@ -1,0 +1,32 @@
+.fetchComponent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.loadingText {
+    font-weight: bold;
+}
+
+.dataCard {
+    flex-basis: 25%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #153131;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.fetchError {
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: #C3423F;
+    padding: 20px;
+    color: #FFF;
+}
